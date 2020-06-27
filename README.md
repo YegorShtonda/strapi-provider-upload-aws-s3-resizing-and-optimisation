@@ -1,5 +1,17 @@
 # strapi-provider-upload-aws-s3-resizing-and-optimisation
 
+## Installation
+
+```
+$ npm i strapi-provider-upload-aws-s3-resizing-and-optimisation
+```
+
+or
+
+```
+$ yarn add strapi-provider-upload-aws-s3-resizing-and-optimisation
+```
+
 ## Opportunities
 
 + Resizing and optimisation images by using [sharp.js](https://sharp.pixelplumbing.com/)
