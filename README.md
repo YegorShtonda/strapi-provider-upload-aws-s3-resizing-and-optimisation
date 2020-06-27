@@ -87,18 +87,26 @@ You can see another Sharp Optimize Options [here](https://sharp.pixelplumbing.co
 ```
 + images
   + origin
-    - image.jpeg
-    - image.webp
+    - image1.jpeg
+    - image2.png
+    - image3.webp
+    - image4.tiff
+  + thumbnail
+    - thumbnail_image1.jpeg
+    - thumbnail_image2.png
+    - thumbnail_image3.webp
+    - thumbnail_image4.tiff
+  + your-custom-size-format
+    - image1.jpeg
+    - image1.webp
     - image2.png
     - image2.webp
     - image3.webp
     - image4.tiff
     - image4.webp
-  + thumbnail
-    - thumbnail_image.jpeg
-  + your-custom-size-format
-    - image.jpeg
-    - image.webp
+  + your-another-custom-size-format
+    - image1.jpeg
+    - image1.webp
     - image2.png
     - image2.webp
     - image3.webp
