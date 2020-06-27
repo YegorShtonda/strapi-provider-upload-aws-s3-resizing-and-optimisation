@@ -1,7 +1,7 @@
 {
   "name": "strapi-provider-upload-aws-s3-resizing-and-optimisation",
   "version": "1.0.0",
-  "description": "Strapi file upload to AWS S3, with resizing images and generation webp images",
+  "description": "Strapi file upload to AWS S3, with resizing and optimisation images, generation webp images",
   "directories": {
     "lib": "./lib"
   },
@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shtyegor/strapi-provider-upload-aws-s3-resizing-and-optimisation"
+    "url": "https://github.com/YegorShtonda/strapi-provider-upload-aws-s3-resizing-and-optimisation"
   },
   "strapi": {
     "isProvider": true
