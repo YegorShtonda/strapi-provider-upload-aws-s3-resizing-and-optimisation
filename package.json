@@ -5,6 +5,16 @@
   "directories": {
     "lib": "./lib"
   },
+  "keywords": [
+    "strapi",
+    "upload",
+    "provider",
+    "aws",
+    "s3",
+    "webp",
+    "resize",
+    "optimize"
+  ],
   "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
