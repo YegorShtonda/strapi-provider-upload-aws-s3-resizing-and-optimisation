@@ -96,6 +96,3 @@ You can see another Sharp Optimize Options [here](https://sharp.pixelplumbing.co
 - icons
 - files
 ```
-
-
-"# strapi-provider-upload-aws-s3-resizing-and-optimisation" 
