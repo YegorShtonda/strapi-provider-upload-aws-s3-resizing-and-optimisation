@@ -97,6 +97,13 @@ You can see another Sharp Optimize Options [here](https://sharp.pixelplumbing.co
   + thumbnail
     - thumbnail_image.jpeg
   + your-custom-size-format
+    - image.jpeg
+    - image.webp
+    - image2.png
+    - image2.webp
+    - image3.webp
+    - image4.tiff
+    - image4.webp
 + icons
   - icon.svg
 + files
