@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-resizing-and-optimisation",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "Strapi file upload to AWS S3, with resizing and optimisation images, generation webp images",
   "directories": {
     "lib": "./lib"
@@ -8,10 +8,10 @@
   "keywords": [
     "strapi",
     "upload",
-    "provider",
     "aws",
     "s3",
     "webp",
+    "sharp",
     "resize",
     "optimize"
   ],
