@@ -81,6 +81,19 @@ module.exports = ({ env }) => ({
 
 You can see another Sharp Optimize Options [here](https://sharp.pixelplumbing.com/api-output#jpeg) and AWS S3 Params [here](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property)
 
+If you want to use a cdn instead of direct S3 access, you can just add a cdn url (i.e. https://whatever.cloudfront.net) to the config:
+
+```js
+module.exports = ({ env }) => ({
+  upload: {
+    provider: 'aws-s3-resizing-and-optimisation',
+    providerOptions: {
+      accessKeyId: env('AWS_ACCESS_KEY_ID'),
+      secretAccessKey: env('AWS_ACCESS_SECRET'),
+      region: env('AWS_REGION'),
+      cnd: env('CLOUDFRONT')
+      ...
+```
 
 ## AWS S3 Bucket structure
 
